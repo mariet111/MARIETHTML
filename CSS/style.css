@@ -1,0 +1,13 @@
+h1, h2, h3 {
+    color: seagreen;
+}
+
+/* Margin left top right down */
+img {
+    margin: 24px 56px 24px 56px;
+}
+
+hr {
+    background-color: red;
+    width: 100px;
+}
