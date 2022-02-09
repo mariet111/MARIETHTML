@@ -3,11 +3,72 @@ h1, h2, h3 {
 }
 
 /* Margin left top right down */
-img {
-    margin: 24px 56px 24px 56px;
-}
+
 
 hr {
-    background-color: red;
+    background-color: blue;
     width: 100px;
+    height: 0%;
+    border-style: dotted none none;
+    border-width: 4px;
+}
+
+
+li{
+    color: burlywood;
+}
+button {
+    cursor: pointer;
+    padding: 8px;
+    border: none;
+    border-radius: 24px;
+}
+
+button:hover, img:active {
+    box-shadow: -webkit-box-shadow: 0px 9px 24px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 9px 24px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 9px 24px 0px #faa545;
+    -webkit-transform: rotate(360deg);
+    transition: 1s;
+}
+
+.rojo {
+    color: coral;
+}
+
+ol .rojo {
+    color: limegreen;
+}
+
+#bizcocho {
+    background-color: hotpink;
+}
+
+.primary {
+    background-color: darkred;
+    color: darkkhaki;
+}
+
+
+.primary:hover {
+    background-color: tomato;
+}
+
+.secondary:hover {
+    background-color: yellow;
+}
+
+
+.gradient-bg {
+    background: linear-gradient(90deg, #db3747 0%, #d62d61 25%, #81005e 50%, #5c457e 75%, #1c537f 100%); 
+}
+
+.card .container span {
+    color: red;
+}
+
+/* tarjeta blanca con imagen */
+.card {
+    background-color: white;
+    width: 150px;
 }
